@@ -12,7 +12,7 @@ dokumentace během několika desítek minut.
 Použijte nástroj [Minikube], který vytvoří prostředí pro Docker a pustí potřebné
 Kubernetes komponenty jako běžné kontejnery.
 
-Pokračujte dle následujícího [https://kubernetes.io/docs/tasks/tools/install-minikube/](návodu)
+Pokračujte dle následujícího [návodu](https://kubernetes.io/docs/tasks/tools/install-minikube/)
 
 ### Spusťte Hello World aplikaci
 Create a Kubernetes Deployment which is responsible for application's Pod health
@@ -62,8 +62,8 @@ $ minikube service hello-node
 ```
 
 ### Bonus: Nainstaluj Wordpress cluster
-__TODO__
-
-
+1. zprovozněte Wordpress dle oficiálního [tutoriálu](https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/)
+2. nastavte replikaci WP Podu
+3. zabijte jeden WP Pod a pozorujte nepřerušenou dostupnost WordPress Service
 
 [Minikube]: https://kubernetes.io/docs/tasks/tools/install-minikube/
